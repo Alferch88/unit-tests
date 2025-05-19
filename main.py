@@ -1,3 +1,7 @@
-# unittests - стартовый файл
+import pinsite
 
-print("Добро пожаловать в проект unittests!")
+if __name__ == '__main__':
+    try:
+        pinsite.start()
+    except:
+        print("Ошибка")
